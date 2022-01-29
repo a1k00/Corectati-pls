@@ -1,0 +1,143 @@
+*{
+    overflow-x: hidden;
+    padding: 0 ;
+    margin:0 ;
+}
+.bar{
+    width:450px;
+    height:100vh;
+    position:fixed;
+    z-index: 3;
+    background-color: rgb(43, 42, 40);
+}
+.sentra{
+    width:450px;
+    height:150px;
+    background-color: rgba(74, 96, 157, 1);
+    color:white;
+    font-size: 35px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.o-o{
+    font-family: 'Montserrat', sans-serif;
+}
+.commun{
+    border:1px solid white;
+    padding:40px 100px 40px 100px;
+}
+.lista a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.lista{
+    margin-top:250px;
+    margin-left: 50px;
+  
+
+}
+.ol{
+    list-style-type: none;
+}
+.dot{
+    width:10px;
+    height:10px;
+    /* background-color: white; */
+    border-radius: 50%;
+    border:2px solid white;
+}
+.ol li a{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+.slide img{
+    width:100%;
+    height:100vh;
+    animation-name: firo;
+    /* animation-duration: 5s; */
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes firo{
+ 0%{
+transform:scale(1);
+ }
+ 100%{
+transform:scale(1.5);
+ }
+}
+.slide{
+    position:relative;
+    z-index: 2;
+    border:1px solid red;
+    height:800px;
+}
+.iconuri{
+    margin-top: 150px ;
+    font-size: 20px;
+    margin-left:120px;
+}
+.first{
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:800px;
+    position:absolute;
+    z-index: 3;
+}
+.texttot{
+ 
+    position:absolute;
+    right:5%;
+    top:40%;
+    font-size:30px;
+    color:white;
+    text-align: end;
+    
+}
+.second{
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+    position:absolute;
+    z-index: 3;
+}
+.third{
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+}
+.forth{
+    background-image: url(4.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+}
+.fifth{
+    background-image: url(5.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+}
+.sixth{
+    background-image: url(6.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+}
